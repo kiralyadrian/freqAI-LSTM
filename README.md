@@ -44,7 +44,7 @@ def _validate_freqai_include_timeframes()
     if freqai_enabled:
         main_tf = conf.get('timeframe', '5m') -> change to '1h' or the **min** timeframe of your choosing
 ```
-5. Make sure your package is edible after the the changes
+5. Make sure your package is editable after the changes
 ```shell
 pip install -e .
 ```
